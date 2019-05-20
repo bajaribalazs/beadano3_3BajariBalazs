@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1549896466 source:c:\balázs\itk\prog\bevprog2\graphicskit\main.cpp
+	"graphics.hpp"
+
+1488260528 c:\balázs\itk\prog\bevprog2\graphicskit\include\graphics.hpp
+	<string>
+
+1557144815 source:c:\balázs\itk\prog\bevprog2\szamologep\main.cpp
+	"graphics.hpp"
+	"Widgets.hpp"
+	"Statictext.hpp"
+	"setnumber.hpp"
+	"Examplecheckbox.hpp"
+	"Menu.hpp"
+	"Button.hpp"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<time.h>
+
+1488260528 c:\balázs\itk\prog\bevprog2\szamologep\include\graphics.hpp
+	<string>
+
+1555520794 c:\balázs\itk\prog\bevprog2\szamologep\widgets.hpp
+	"graphics.hpp"
+
+1555459294 c:\balázs\itk\prog\bevprog2\szamologep\statictext.hpp
+	"graphics.hpp"
+	"Widgets.hpp"
+	<string>
+
+1555549234 c:\balázs\itk\prog\bevprog2\szamologep\setnumber.hpp
+	"graphics.hpp"
+	"Widgets.hpp"
+	<string>
+
+1556544511 c:\balázs\itk\prog\bevprog2\szamologep\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"Statictext.hpp"
+
+1555549582 c:\balázs\itk\prog\bevprog2\szamologep\menu.hpp
+	"graphics.hpp"
+	"Widgets.hpp"
+	<string>
+	<vector>
+
+1556544636 source:c:\balázs\itk\prog\bevprog2\szamologep\examplecheckbox.cpp
+	"Examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555549901 source:c:\balázs\itk\prog\bevprog2\szamologep\menu.cpp
+	"Menu.hpp"
+	<iostream>
+
+1556545019 source:c:\balázs\itk\prog\bevprog2\szamologep\setnumber.cpp
+	"Setnumber.hpp"
+	<iostream>
+
+1555545414 source:c:\balázs\itk\prog\bevprog2\szamologep\statictext.cpp
+	"Statictext.hpp"
+	<iostream>
+
+1555373282 source:c:\balázs\itk\prog\bevprog2\szamologep\widgets.cpp
+	"Widgets.hpp"
+	"graphics.hpp"
+
+1557143643 c:\balázs\itk\prog\bevprog2\szamologep\button.hpp
+	"Widgets.hpp"
+	<string>
+	<functional>
+
+1557143197 source:c:\balázs\itk\prog\bevprog2\szamologep\button.cpp
+	"Button.hpp"
+	<functional>
+	<iostream>
+
+1557143197 source:c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\button.cpp
+	"Button.hpp"
+	<functional>
+	<iostream>
+
+1558306911 c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\button.hpp
+	"Widgets.hpp"
+	<string>
+	<functional>
+
+1558306018 c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\widgets.hpp
+	"graphics.hpp"
+
+1488260528 c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\include\graphics.hpp
+	<string>
+
+1558305478 source:c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\examplecheckbox.cpp
+	"Examplecheckbox.hpp"
+	"graphics.hpp"
+
+1558305693 c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"Statictext.hpp"
+
+1558317515 c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\statictext.hpp
+	"graphics.hpp"
+	"Widgets.hpp"
+	<string>
+
+1558317489 source:c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\main.cpp
+	"graphics.hpp"
+	"Widgets.hpp"
+	"Statictext.hpp"
+	"setnumber.hpp"
+	"checkbox.hpp"
+	"Menu.hpp"
+	"Button.hpp"
+	"jatek.hpp"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<time.h>
+
+1558306911 c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\setnumber.hpp
+	"graphics.hpp"
+	"Widgets.hpp"
+	<string>
+
+1558306911 c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\menu.hpp
+	"graphics.hpp"
+	"Widgets.hpp"
+	<string>
+	<vector>
+
+1555549901 source:c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\menu.cpp
+	"Menu.hpp"
+	<iostream>
+
+1556545019 source:c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\setnumber.cpp
+	"Setnumber.hpp"
+	<iostream>
+
+1555545414 source:c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\statictext.cpp
+	"Statictext.hpp"
+	<iostream>
+
+1555373282 source:c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\widgets.cpp
+	"Widgets.hpp"
+	"graphics.hpp"
+
+1558308926 source:c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\jatek.cpp
+	"jatek.hpp"
+	"Widgets.hpp"
+	<vector>
+	<iostream>
+
+1558305891 c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\jatek.hpp
+	<vector>
+	"Widgets.hpp"
+
+1558317553 source:c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\checkbox.cpp
+	"checkbox.hpp"
+	"graphics.hpp"
+
+1558317617 c:\balázs\itk\prog\bevprog2\beadandó\beadandó 3\checkbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"Statictext.hpp"
+
