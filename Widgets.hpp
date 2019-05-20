@@ -19,6 +19,9 @@ class Widgets
 
         bool focus = false;
         virtual int get_statusz() = 0;
+        virtual bool is_used() = 0;
+        virtual void player_1() = 0;
+        virtual void player_2() = 0;
 
 };
 

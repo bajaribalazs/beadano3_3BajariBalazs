@@ -9,6 +9,8 @@ protected:
     bool _checked;
     const static bool _focusable = true;
     bool _focused = false;
+    int p=-1;
+    bool used;
 public:
     checkbox(int x, int y, int sx, int sy);
     bool is_focused();
@@ -17,10 +19,12 @@ public:
     virtual void draw() ;
     virtual void handle(genv::event ev);
     std::string get_value();
-    int statusz;
-    int counter=1;
-
+    int statusz=0;
+    int* counter;
     int get_statusz();
+    void player_1();
+    void player_2();
+    bool is_used();
 };
 
 

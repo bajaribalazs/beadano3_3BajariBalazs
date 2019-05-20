@@ -5,8 +5,6 @@
 class jatek
 {
     public:
-        jatek();
-        virtual ~jatek();
         bool check(std :: vector<Widgets*>elemek);
 
     protected:

@@ -4,20 +4,24 @@
 #include <iostream>
 using namespace std;
 
-bool check(std :: vector<Widgets*>elemek){
-    int ellenoriz;
-    for(int i = 0;i<10;i++){
+ bool jatek::check(std :: vector<Widgets*>elemek){
+    int ellenoriz=0;
+    for(int i = 1;i<elemek.size();i++){
 
-        if(elemek[i] -> get_statusz() == elemek[i+1] -> get_statusz() && i%10 != 0){
-            ellenoriz=ellenoriz+1;
-            if (ellenoriz=5){
-                    cout<<"vege"<<endl;
+        if(elemek[i-1] -> get_statusz()==1 && elemek[i] -> get_statusz()==1 && i%10 != 0){
+                std::cout<<ellenoriz;                       ///debug celokra
+            ellenoriz++;
+            if (ellenoriz==5){
+                    cout<<"vege"<<endl;                     ///debug celokra
+                    return false;
             }
         } else{
             ellenoriz = 0;
         }
 
+
     }
+    return true;
 
 }
 
